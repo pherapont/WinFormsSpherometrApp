@@ -106,7 +106,7 @@ namespace WinFormsSpherometr
             measure.Enabled = true;
         }
 
-        private void bRing_CheckedChanged(object sender, EventArgs e)
+        private void Ring_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rb = sender as RadioButton;
             if (rb == null)

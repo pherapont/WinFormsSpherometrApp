@@ -171,7 +171,7 @@ namespace WinFormsSpherometr
             this.bRing4.TabStop = true;
             this.bRing4.Text = "Кольцо 4";
             this.bRing4.UseVisualStyleBackColor = true;
-            this.bRing4.CheckedChanged += new System.EventHandler(this.bRing_CheckedChanged);
+            this.bRing4.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // bRing3
             // 
@@ -184,7 +184,7 @@ namespace WinFormsSpherometr
             this.bRing3.TabStop = true;
             this.bRing3.Text = "Кольцо 3";
             this.bRing3.UseVisualStyleBackColor = true;
-            this.bRing3.CheckedChanged += new System.EventHandler(this.bRing_CheckedChanged);
+            this.bRing3.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // bRing2
             // 
@@ -197,7 +197,7 @@ namespace WinFormsSpherometr
             this.bRing2.TabStop = true;
             this.bRing2.Text = "Кольцо 2";
             this.bRing2.UseVisualStyleBackColor = true;
-            this.bRing2.CheckedChanged += new System.EventHandler(this.bRing_CheckedChanged);
+            this.bRing2.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // bRing1
             // 
@@ -210,7 +210,7 @@ namespace WinFormsSpherometr
             this.bRing1.TabStop = true;
             this.bRing1.Text = "Кольцо 1";
             this.bRing1.UseVisualStyleBackColor = true;
-            this.bRing1.CheckedChanged += new System.EventHandler(this.bRing_CheckedChanged);
+            this.bRing1.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // RingsPreNote
             // 
@@ -247,6 +247,8 @@ namespace WinFormsSpherometr
             this.sRing7.TabStop = true;
             this.sRing7.Text = "Кольцо 7";
             this.sRing7.UseVisualStyleBackColor = true;
+            this.sRing7.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
+
             // 
             // sRing5
             // 
@@ -259,6 +261,7 @@ namespace WinFormsSpherometr
             this.sRing5.TabStop = true;
             this.sRing5.Text = "Кольцо 5";
             this.sRing5.UseVisualStyleBackColor = true;
+            this.sRing5.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // sRing4
             // 
@@ -271,6 +274,7 @@ namespace WinFormsSpherometr
             this.sRing4.TabStop = true;
             this.sRing4.Text = "Кольцо 4";
             this.sRing4.UseVisualStyleBackColor = true;
+            this.sRing4.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // sRing3
             // 
@@ -283,6 +287,7 @@ namespace WinFormsSpherometr
             this.sRing3.TabStop = true;
             this.sRing3.Text = "Кольцо 3";
             this.sRing3.UseVisualStyleBackColor = true;
+            this.sRing3.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // sRing2
             // 
@@ -295,6 +300,7 @@ namespace WinFormsSpherometr
             this.sRing2.TabStop = true;
             this.sRing2.Text = "Кольцо 2";
             this.sRing2.UseVisualStyleBackColor = true;
+            this.sRing2.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // sRing1
             // 
@@ -307,6 +313,7 @@ namespace WinFormsSpherometr
             this.sRing1.TabStop = true;
             this.sRing1.Text = "Кольцо 1";
             this.sRing1.UseVisualStyleBackColor = true;
+            this.sRing1.CheckedChanged += new System.EventHandler(this.Ring_CheckedChanged);
             // 
             // label2
             // 
@@ -363,7 +370,7 @@ namespace WinFormsSpherometr
             this.surfTypeConvex.Size = new System.Drawing.Size(74, 19);
             this.surfTypeConvex.TabIndex = 1;
             this.surfTypeConvex.TabStop = true;
-            this.surfTypeConvex.Text = "Вогнутая";
+            this.surfTypeConvex.Text = "Выпуклая";
             this.surfTypeConvex.UseVisualStyleBackColor = true;
             // 
             // surfTypeConcave
@@ -374,7 +381,7 @@ namespace WinFormsSpherometr
             this.surfTypeConcave.Size = new System.Drawing.Size(79, 19);
             this.surfTypeConcave.TabIndex = 0;
             this.surfTypeConcave.TabStop = true;
-            this.surfTypeConcave.Text = "Выпуклая";
+            this.surfTypeConcave.Text = "Вогнутая";
             this.surfTypeConcave.UseVisualStyleBackColor = true;
             // 
             // result
